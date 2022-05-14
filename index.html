@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <div>
-        <div >
-            <div>
+    <div class="flex flex-col">
+        <div class="flex bg-stone-400">
+            <div class="p-[5px] m-[5px] basis-20 text-center hover:text-right h-20 bg-stone-100">
                 home
             </div>
-            <div>edit</div>
-            <div>about</div>
+            <div class="p-[5px] m-[5px] basis-20 text-right h-20 bg-stone-100">edit</div>
+            <div class="p-[5px] m-[5px] basis-20 text-justify h-20 bg-stone-100 hover:bg-black" >about</div>
         </div>
-        <div >
-          <div >
+        <div class="flex">
+            <div class="flex flex-col">
                 <div>
                     hello
                 </div>
